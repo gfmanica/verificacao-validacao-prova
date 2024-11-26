@@ -34,3 +34,7 @@ Descobri a existencia do `describe` também, que cria um bloco que agrupa vário
 | 4             | Fatura acima de R$ 1.000 sem desconto informado | `[{name: 'apple', price: 100, quantity: 8}, {name: 'banana', price: 40, quantity: 12}]`, `discount: 0`   | 1180.00                   |
 | 5             | Dispara exceção com preço negativo              | `[{name: 'apple', price: 60, quantity: 5}, {name: 'banana', price: -40, quantity: 5}]`, `discount: 0.2`  | `InvalidProductException` |
 | 6             | Dispara exceção com quantidade negativa         | `[{name: 'apple', price: 90, quantity: 7}, {name: 'banana', price: 40, quantity: -5}]`, `discount: 0.3`  | `InvalidProductException` |
+
+# Resultados finais
+![imagem dos casos de teste](https://github.com/user-attachments/assets/4decd28c-c1e5-4c1c-bc40-addbc77d97fa)
+
